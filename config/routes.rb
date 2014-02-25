@@ -1,7 +1,7 @@
 Amp10::Application.routes.draw do
-  get "site_pages/home"
-  get "site_pages/about"
-  get "site_pages/contact"
+  root 'site_pages#home'
+  match '/about',   to: 'static_pages#about',   via: 'get'
+  match '/contact', to: 'static_pages#contact', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
