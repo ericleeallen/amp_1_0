@@ -1,4 +1,4 @@
-<% provide(:title, 'Home') %>
+<% provide(:title, 'AMP Services Home') %>
 
  <!-- Carousel
     ================================================== -->
@@ -11,12 +11,12 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <%= image_tag("tv-lights.jpg", alt: 'First slide') %>
-          <!-- <img src=".../assets/images/pool-lights.jpg" data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"> -->
+          <%#= image_tag("blue-bck.jpg", alt: 'First slide') %>
+          <div id="amp-intro"></div>
           <div class="container">
             <div class="carousel-caption">
               <h1>AMP Services</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p>Utah's premiere electrical company</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
             </div>
           </div>
@@ -57,7 +57,8 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+        	<%= image_tag("res-140.jpg", alt: 'Residential Electrical Image', class: 'img-circle') %>
+          <!-- <img class="img-circle" data-src="res-140.jpg" alt="Generic placeholder image"> -->
           <h2>Heading</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
