@@ -7,4 +7,10 @@ class SitePagesController < ApplicationController
 
   def contact
   end
+
+  def blog
+  end
+
+  def gallery
+  end
 end

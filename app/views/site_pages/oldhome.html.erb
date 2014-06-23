@@ -1,0 +1,170 @@
+<% provide(:title, 'AMP Services Home') %>
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <div class="amp-carousel">
+            <%= image_tag("pool-lights.jpg", alt: 'Second slide', id: 'tv-lights') %>
+              <div class="carousel-caption">
+                <h1>Utah's premiere electrical company</h1>
+                <h3>Proudly serving Utah since 2003</h3>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
+              </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="amp-carousel">
+            <%= image_tag("tv-lights.jpg", alt: 'Second slide', id: 'tv-lights') %>
+          </div>
+          <div class="carousel-caption">
+            <h1>Residential Experts.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="amp-carousel"></div>
+          <%#= image_tag("ext-lights.jpg", alt: 'Third slide') %>
+         <!--  <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Commercial Grade</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+<!-- /.carousel -->
+    <div class="container marketing">
+      <h1>What do we do?</h1>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <p><i class="fa fa-home fa-commercial"></i></p>
+          <!-- <span class="glyphicon glyphicon-home" style="font-size:140px; color:#333333"></span> -->
+        	<%#= image_tag("res-140.jpg", alt: 'Residential Electrical Image', class: 'img-square') %>
+          <!-- <img class="img-circle" data-src="res-140.jpg" alt="Generic placeholder image"> -->
+          <h2>Residential</h2>
+          <ul class="service-list">
+            <li>New Home Construction</li>
+            <li>Home Remodeling</li>
+            <li>Electrical Troubleshooting</li>
+          </ul>
+          <p><a class="btn btn-default" href="#" role="button">View Residential Gallery &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <p><i class="fa fa-building-o fa-commercial"></i></p>
+          <%#= image_tag("res-140-2.jpg", alt: 'Commercial Electrical Image', class: 'img-square') %>
+          <h2>Commercial</h2>
+          <ul class="service-list">
+            <li>New Home Construction</li>
+            <li>Home Remodeling</li>
+            <li>Electrical Troubleshooting</li>
+          </ul>
+          <p><a class="btn btn-default" href="#" role="button">View Commercial Gallery &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <p><i class="fa fa-lightbulb-o fa-commercial"></i></p>
+          <h2>Heading</h2>
+          <ul class="service-list">
+            <li>New Home Construction</li>
+            <li>Home Remodeling</li>
+            <li>Electrical Troubleshooting</li>
+          </ul>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+
+      <!-- WHO ARE WE START -->
+
+      <div class="container about_us">
+        <h1>Who are we?</h1>
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <%= image_tag("mike-140.jpg", alt: 'Residential Electrical Image', class: 'img-circle') %>
+          <!-- <img class="img-circle" data-src="res-140.jpg" alt="Generic placeholder image"> -->
+          <h2>Mike</h2>
+          <p>Mike has been an electricial since 2003. He's well known for his bright personality and perfectionism. Few have an eye for detail that can match Mike's.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <%= image_tag("wade-140.jpg", alt: 'Commercial Electrical Image', class: 'img-circle') %>
+          <h2>Wade</h2>
+          <p>Wade is an expert electrician. He has been doing electrical work for more than four decades. </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Rustin</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+
+      <!-- WHO ARE WE END -->
+
+      <!-- START THE FEATURETTES -->
+
+      <!-- <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider"> -->
+
+      <!-- /END THE FEATURETTES -->
+ 

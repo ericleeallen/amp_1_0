@@ -1,15 +1,16 @@
 <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
       <div class="navbar-header">
-        <%= link_to "AMP Services", root_path, id: 'logo' %>
+        <%= link_to image_tag("amp_logo.png", alt: 'AMP Logo', id: 'logo'), root_path %>
+        <%#= link_to "", root_path, id: 'logo' %>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "About",  about_path, class: 'nav-text' %></li>
+        <li><%= link_to "About",      about_path, class: 'nav-text' %></li>
+        <li><%= link_to "Gallery",    gallery_path %></li>
         <li><%= link_to "Contact Us", contact_path %></li>
-        <li><%= link_to "Blog",       '#' %></li>
+        <li><%= link_to "Blog",       blog_path %></li>
+        <li><div class="phone-header">CALL: 801-471-7129</div></li>
         <div class="followus">
 
         </div>
       </ul>
-    </div>
   </div>
