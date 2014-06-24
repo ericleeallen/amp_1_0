@@ -73,7 +73,7 @@ textarea {
   border: none;
 }
 
-.phone-header{
+#phone-header{
   display: block;
   font-size: 2em;
   line-height: 20px;
@@ -81,6 +81,10 @@ textarea {
   padding-left: 60px;
   padding-top: 35px;
   color:$ampblue;
+}
+
+#phone-header-small {
+  display:none;
 }
 
 /*Hero*/
@@ -196,3 +200,17 @@ textarea {
   background-color: $white;
   margin-top: 30px;
 }
+
+/*Smaller Screen Sizes*/
+
+@media only screen and (max-width:479px){
+  #phone-header-small{display:block;color: #168ece;margin-left: 100px;margin-top: -24px;}
+  #phone-header{display:none;}
+  .navbar { height: 10px; }
+  #logo {height: 40px; margin-top: 5px; margin-left: 5px;}
+  .navbar-nav {background-color:$white;}
+  .navbar-nav > li > a {padding-top:5px;padding-bottom:5px;padding-right:25px;text-align: right;color:$ampblue;}
+  .navbar-nav.navbar-right:last-child {margin-right: -19px;margin-top: 0;}
+  #hero-title {margin-top: -28px;font-size: 25px;}
+  }
+
