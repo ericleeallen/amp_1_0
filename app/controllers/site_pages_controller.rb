@@ -13,4 +13,7 @@ class SitePagesController < ApplicationController
 
   def gallery
   end
+
+  def services
+  end
 end

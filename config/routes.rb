@@ -5,6 +5,7 @@ Amp10::Application.routes.draw do
   match '/contact', to: 'site_pages#contact', via: 'get'
   match '/blog',    to: 'site_pages#blog',    via: 'get'
   match '/gallery', to: 'site_pages#gallery', via: 'get'
+  match '/services', to: 'site_pages#services', via: 'get'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
